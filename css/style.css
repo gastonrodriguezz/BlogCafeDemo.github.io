@@ -1,6 +1,6 @@
 :root {
-    --fuenteHeading: 'PT Sans', sans-serif;
-    --fuenteParrafos: 'Open Sans', sans-serif;
+    --fuenteHeading: "PT Sans", sans-serif;
+    --fuenteParrafos: "Open Sans", sans-serif;
 
     --primario: #784d3c;
     --gris: #e1e1e1;
@@ -13,7 +13,9 @@ html {
     font-size: 62.5%;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
@@ -33,7 +35,10 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: var(--fuenteHeading);
     line-height: 1.2;
 }
@@ -69,7 +74,6 @@ img {
 
 .centrar-texto {
     text-align: center;
-
 }
 
 /* Headeer */
@@ -248,6 +252,20 @@ img {
 }
 
 /* Cotacto */
+.error {
+    background-color: rgb(185, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
+.correcto {
+    background-color: rgb(74, 185, 0);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
 .contacto-bg {
     background-image: url(/img/contacto.jpg);
     height: 40rem;
