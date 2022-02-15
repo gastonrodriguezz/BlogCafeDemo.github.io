@@ -45,6 +45,6 @@ function mostrarAlerta(mensaje, error = null) {
   }
   formulario.appendChild(alerta);
   setTimeout(() => {
-    error.remove();
+    alerta.remove();
   }, 5000);
 }
